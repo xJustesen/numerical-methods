@@ -1,0 +1,12 @@
+Function test	: Rosenbrock
+##### BACKTRACK LINESEARCH #####
+Global min.	= [ 1, 1]
+Initial guess	= [ 8, 3]
+Min. found	= [ 1.00002672  1.00005273]
+Func. calls	= 1920 
+
+##### GOLDEN SECTION QUADRATIC INTERPOLATION #####
+Global min.	= [ 1, 1]
+Initial guess	= [ 8, 3]
+Min. found	= [ 1.00000004  1.00000008]
+Func. calls	= 68

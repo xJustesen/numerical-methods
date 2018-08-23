@@ -1,0 +1,9 @@
+set terminal svg
+set output 'plot.svg'
+set title 'Non-linear least squares fit' font ',20'
+
+set style line 1 lc rgb 'blue' lt 7
+set style line 2 lc rgb 'black' lt -1 lw 2
+
+plot 'plotdata.txt' using 3:4:5 ls 1 with yerrorbars title 'Data', \
+     'plotdata.txt' using 1:2 with linespoints ls 2 title 'Fit', \

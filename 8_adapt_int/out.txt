@@ -1,0 +1,55 @@
+Function:		 f(x) = sqrt(x)
+Absolute accuracy:	 0.0001
+Relative accuracy:	 0.0001
+Integral bounds:	 0 4
+Integrand evaluations: 	 232
+Numeric integral:	 0.666678994518
+Analytic integral: 	 0.6666666666666666
+
+Function:		 f(x) = 1/sqrt(x)
+Absolute accuracy:	 0.0001
+Relative accuracy:	 0.0001
+Integral bounds:	 0 1
+Integrand evaluations: 	 119880
+Numeric integral:	 1.99999968905
+Analytic integral: 	 2
+
+Function:		 f(x) = log(x)/sqrt(x)
+Absolute accuracy:	 0.0001
+Relative accuracy:	 0.0001
+Integral bounds:	 0 1
+Integrand evaluations: 	 121304
+Numeric integral:	 -3.99999967943
+Analytic integral: 	 -4
+
+Function:		 f(x) = 4*sqrt(1 - (1 - x)**2)
+Absolute accuracy:	 1e-06
+Relative accuracy:	 1e-06
+Integral bounds:	 0 1
+Integrand evaluations: 	 433352
+Numeric integral:	 3.14159265359
+Analytic integral: 	 3.141592653589793
+
+Function:		 f(x) = exp(-x)
+Absolute accuracy:	 0.0001
+Relative accuracy:	 0.0001
+Integral bounds:	 0 inf
+Integrand evaluations: 	 140456
+Numeric integral:	 1.00000953404
+Analytic integral: 	 1
+
+Function:		 f(x) = exp(x)
+Absolute accuracy:	 0.0001
+Relative accuracy:	 0.0001
+Integral bounds:	 -inf 0
+Integrand evaluations: 	 456
+Numeric integral:	 1.00000039482
+Analytic integral: 	 1
+
+Function:		 f(x) = exp(-0.5*x^2)/sqrt(2*pi)
+Absolute accuracy:	 0.0001
+Relative accuracy:	 0.0001
+Integral bounds:	 -inf inf
+Integrand evaluations: 	 141864
+Numeric integral:	 0.999932207927
+Analytic integral: 	 1

@@ -1,0 +1,24 @@
+Function test	: Rosenbrock
+Global min.	= [ 1, 1]
+Initial guess	= [ 8, 3]
+Min. found	= [ 1.00002755  1.00005436]
+
+Function test	: Himmelblau
+Local min.	= [ 3, 2], 
+		  [ -2.805118, 3.131312], 
+		  [ -3.779310, -3.283186], 
+		  [ 3.584428, -1.848126]
+Initial guess	= [ 5, 2]
+Min. found	= [ 3.00000005  1.99999999]
+
+Function test	: Three-hump camel function
+Local min.	= [ 0, 0],
+		  [ -1.74755, 0.873776],
+		  [ 1.74755, -0.873776]
+Initial guess	= [ 1.5, 0.5]
+Min. found	= [ 1.74755361 -0.87377681]
+
+Solution of equation system
+Exact sol.	= [ 9, 0]
+Initial guess	= [ 2, 1]
+Sol. found	= [  9.02946003e+00   1.10800826e-05]

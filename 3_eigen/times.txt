@@ -1,0 +1,2 @@
+Number of CPU-seconds used when doing cyclic sweeps: 0.34
+Number of CPU-seconds used when doing value-by-value: 2.51

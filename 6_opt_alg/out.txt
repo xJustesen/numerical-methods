@@ -1,0 +1,44 @@
+###########	ROOT-FINDING	###########
+Minimizing Rosenbrock
+Startpoint:	 [ 4.  5.]
+Found minimum:	 [ 1.          1.00000001] 
+Steps used:	 528 
+Precision:	 1e-06
+
+Minimizing Himmelblau
+Startpoint:	 [ 4.  5.]
+Found minimum:	 [ 3.  2.] 
+Steps used:	 6 
+Precision:	 1e-06
+
+###########	NEWTON		###########
+Minimizing Rosenbrock
+Startpoint:	 [ 4.  5.]
+Found minimum:	 [ 1.  1.] 
+Steps used:	 190 
+Precision:	 1e-06
+
+Minimizing Himmelblau
+Startpoint:	 [ 4.  5.]
+Found minimum:	 [ 3.  2.] 
+Steps used:	 7 
+Precision:	 1e-06
+
+###########	QUASI-NEWTON	###########
+Minimizing Rosenbrock
+Startpoint:	 [ 4.  5.]
+Found minimum:	 [ 0.99997082  0.9999416 ] 
+Steps used:	 1511 
+Precision:	 1e-06
+
+Minimizing Himmelblau
+Startpoint:	 [ 4.  5.]
+Found minimum:	 [ 3.58442829 -1.84812657] 
+Steps used:	 18 
+Precision:	 1e-06
+
+Fitting decay-law
+Start-params:	 [ 1.  2.  3.]
+Fit params:	 [ 3.55702017  3.20543571  1.23192146] 
+Steps used:	 85 
+Precision:	 1e-06

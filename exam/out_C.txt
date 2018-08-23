@@ -1,0 +1,50 @@
+Comparison between using quasi Newton's method with symmetric rank-1 (SR1) update, Broyden's method and using Newton's method.
+
+Initial guess	: 1.00000 + 2.00000j
+Precision used	: 0.00000 + 0.00000j
+
+######## Test function: f(z) = z*z ########## 
+
+
+1D complex-valued function:
+
+Root found with Broyden update is 	( 0.00024 + 0.00048j )	 with 52 function evalulations
+Root found with SR1 update is 		( 0.00024 + 0.00048j )	 with 52 function evalulations
+Root found with Newton method is 	( 0.00012 + 0.00024j )	 with 64 function evalulations
+
+2D real-valued function:
+
+Root found with Broyden update is	 [ 0.00098  0.00025] 	with 223 function evalulations
+Root found with SR1 update is		 [ 0.00024  0.00051] 	with 246 function evalulations
+Root found with Newton method is	 [ 0.00024  0.00049] 	with 48 function evalulations
+
+######## Test function: f(z) = exp(z) - (1+1i) ########## 
+
+
+1D complex-valued function:
+
+Root found with Broyden update is 	( 0.34657 + 0.78540j )	 with 36 function evalulations
+Root found with SR1 update is 		( 0.34657 + 0.78540j )	 with 36 function evalulations
+Root found with Newton method is 	( 0.34657 + 0.78540j )	 with 29 function evalulations
+
+2D real-valued function:
+
+Root found with Broyden update is	 [ 0.34657  0.7854 ] 	with 83 function evalulations
+Root found with SR1 update is		 [ 0.34657  0.7854 ] 	with 121 function evalulations
+Root found with Newton method is	 [ 0.34657  0.7854 ] 	with 20 function evalulations
+
+######## Test function: f(z) = sin(z) + cos(z) ########## 
+
+
+1D complex-valued function:
+
+Root found with Broyden update is 	( 2.35619 + -0.00000j )	 with 77 function evalulations
+Root found with SR1 update is 		( 2.35619 + -0.00000j )	 with 77 function evalulations
+Root found with Newton method is 	( 2.35619 + -0.00000j )	 with 36 function evalulations
+
+2D real-valued function:
+
+Root found with Broyden update is	 [  2.35619e+00   8.46907e-14] 	with 116 function evalulations
+Root found with SR1 update is		 [  2.35619e+00   1.49376e-07] 	with 78 function evalulations
+Root found with Newton method is	 [  2.35619e+00  -1.73365e-10] 	with 26 function evalulations
+

@@ -1,0 +1,56 @@
+Rootfinding using quasi Newton's method with Broyden's update
+
+######## Test function: f(z) = z*z ########## 
+
+Quasi Newton using complex-valued functions (1D)
+Initial guess	: 1.00000 + 2.00000j
+Intial f(z)	: -3.00000 + 4.00000j
+Min. found	: 0.00024 + 0.00048j
+Final f(z)	: -0.00000 + 0.00000j
+Precision used	: 0.00000 + 0.00000j
+Function evals	: 56
+
+Quasi Newton using real-valued functions (2D) (exercise 5)
+Initial guess	: [ 1.  2.]
+Intial f(z)	: [-3.  4.]
+Min. found	: [ 0.00098  0.00025]
+Final f(z)	: [  8.89811e-07   4.97228e-07]
+Precision used	: 0.0001
+Function evals	: 225
+
+######## Test function: f(z) = exp(z) - (1+1i) ########## 
+
+Quasi Newton using complex-valued functions (1D)
+Initial guess	: 1.00000 + 2.00000j
+Intial f(z)	: -2.13120 + 1.47173j
+Min. found	: 0.34657 + 0.78540j
+Final f(z)	: 0.00000 + 0.00000j
+Precision used	: 0.00000 + 0.00000j
+Function evals	: 40
+
+Quasi Newton using real-valued functions (2D) (exercise 5)
+Initial guess	: [ 1.  2.]
+Intial f(z)	: [-2.1312   1.47173]
+Min. found	: [ 0.34657  0.7854 ]
+Final f(z)	: [ -4.33207e-09  -4.30485e-09]
+Precision used	: 0.0001
+Function evals	: 85
+
+######## Test function: f(z) = sin(z) + cos(z) ########## 
+
+Quasi Newton using complex-valued functions (1D)
+Initial guess	: 1.00000 + 2.00000j
+Intial f(z)	: 5.19850 + -1.09230j
+Min. found	: 2.35619 + -0.00000j
+Final f(z)	: 0.00000 + 0.00000j
+Precision used	: 0.00000 + 0.00000j
+Function evals	: 81
+
+Quasi Newton using real-valued functions (2D) (exercise 5)
+Initial guess	: [ 1.  2.]
+Intial f(z)	: [ 5.1985 -1.0923]
+Min. found	: [  2.35619e+00   8.46907e-14]
+Final f(z)	: [  1.74083e-13  -1.19771e-13]
+Precision used	: 0.0001
+Function evals	: 118
+

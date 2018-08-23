@@ -1,0 +1,31 @@
+Function test	: Rosenbrock
+##### NUMERIC JACOBIAN #####
+Global min.	= [ 1, 1]
+Initial guess	= [ 8, 3]
+Min. found	= [ 1.00002755  1.00005436]
+Func. calls	= 2877 
+
+##### ANALYTIC JACOBIAN #####
+Global min.	= [ 1, 1]
+Initial guess	= [ 8, 3]
+Min. found	= [ 1.00002672  1.00005273]
+Func. calls	= 1920
+
+Function test	: Himmelblau
+##### NUMERIC JACOBIAN #####
+Local min.	= [ 3, 2], 
+		  [ -2.805118, 3.131312], 
+		  [ -3.779310, -3.283186], 
+		  [ 3.584428, -1.848126]
+Initial guess	= [ 5, 2]
+Min. found	= [ 3.00000005  1.99999999]
+Func. calls	= 12 
+
+##### ANALYTIC JACOBIAN #####
+Local min.	= [ 3, 2], 
+		  [ -2.805118, 3.131312], 
+		  [ -3.779310, -3.283186], 
+		  [ 3.584428, -1.848126]
+Initial guess	= [ 5, 2]
+Min. found	= [ 3.00000005  1.99999999]
+Func. calls	= 10
